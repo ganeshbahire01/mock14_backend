@@ -11,6 +11,6 @@ const AccountSchema = mongoose.Schema({
   Pan_No: String,
 });
 
-const AccountModel = ("custmer", AccountSchema);
+const AccountModel = mongoose.model("custmer", AccountSchema);
 
 module.exports = AccountModel;
